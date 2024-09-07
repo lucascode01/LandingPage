@@ -88,6 +88,11 @@ section {
     font-size: 1.1em;
 }
 
+
+#detalhess {
+    margin-top: 50px;
+}
+
 .testimonial {
     background-color: #fff;
     padding: 20px;
@@ -171,4 +176,12 @@ h3 {
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Remove o espaço abaixo da imagem */
     max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+}
+
+
+#brilho {
+    font-size: 21px;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4), 0 0 15px rgba(255, 255, 255, 0.2);
+    margin-top: 10px;
 }
