@@ -165,3 +165,10 @@ h3 {
     margin-top: 20px;
 
 }
+
+.full-width-image {
+    width: 100%;  /* Ajusta a largura da imagem para 100% do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço abaixo da imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+}
