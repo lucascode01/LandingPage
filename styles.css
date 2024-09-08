@@ -28,7 +28,6 @@ header p {
     margin-bottom: 20px;
 }
 
-/* Estilo básico para todos os botões */
 .btn {
     background-color: #00397f; /* Cor de fundo padrão */
     color: #fff; /* Cor do texto */
@@ -73,9 +72,38 @@ header p {
     color: #fff; /* Cor do texto quando pressionado */
 }
 
+
+
+#introducao{
+
+    margin-top: -20px;
+
+
+}
+
+#introducao h2 {
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+#introducao p {
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+
+
+#bonus{
+    margin-top: -50px;
+}
+
+
+
 section {
     padding: 60px 0;
     text-align: center;
+}
+
+#detalhes{
+    margin-top: -30px;
 }
 
 #detalhes ul {
@@ -88,10 +116,12 @@ section {
     font-size: 1.1em;
 }
 
-
 #detalhess {
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
+
+
 
 .testimonial {
     background-color: #fff;
@@ -167,8 +197,14 @@ h3 {
 
 
 .titulo-margem{
-    margin-top: 20px;
+    margin-top: 30px;
 
+}
+
+.salario{
+    font-size: 21px;
+    margin-top: 30px;
+    
 }
 
 .full-width-image {
@@ -179,9 +215,30 @@ h3 {
 }
 
 
+
+.brilhando {
+    color: #fff; /* Cor branca para combinar com o fundo, ajuste conforme necessário */
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4), 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+
+@keyframes brilho-ondulante {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
 #brilho {
     font-size: 21px;
     color: #fff;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4), 0 0 15px rgba(255, 255, 255, 0.2);
-    margin-top: 10px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(53, 53, 53, 0), rgb(225, 225, 225));
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: brilho-ondulante 7s linear infinite;
+    margin-top: 60px;
+
 }
