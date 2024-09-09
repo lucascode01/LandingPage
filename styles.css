@@ -74,22 +74,30 @@ header p {
 
 
 
-#introducao{
-
-    margin-top: -20px;
 
 
+
+#introducao {
+    margin-top: 20px; /* Ajuste para um valor positivo */
+
+}
+
+#introducao .container {
+    margin: 0 auto;
+    max-width: 1200px; /* Ajuste conforme necessário */
 }
 
 #introducao h2 {
-    margin-bottom: 20px; /* Ajuste conforme necessário */
+    margin-bottom: 40px;
 }
 
 #introducao p {
-    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-top: 20px;
 }
 
-
+#introducao #brilho {
+    margin-top: 60px; /* Ajuste conforme necessário para mais espaço abaixo do primeiro parágrafo */
+}
 
 #bonus{
     margin-top: -50px;
@@ -97,10 +105,29 @@ header p {
 
 
 
+#Beneficios{
+
+    margin-top: 70px;
+}
+
+
 section {
     padding: 60px 0;
     text-align: center;
 }
+
+
+
+
+.texto-normal {
+    font-weight: normal;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+
 
 #detalhes{
     margin-top: -30px;
@@ -239,6 +266,20 @@ h3 {
     background-clip: text;
     color: transparent;
     animation: brilho-ondulante 7s linear infinite;
-    margin-top: 60px;
+    margin-bottom: -20px;
 
+
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.full-width-image {
+    display: block; /* Remove o espaço gerado pelo modo inline */
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
