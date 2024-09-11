@@ -284,19 +284,23 @@ body, html {
     padding: 0;
 }
 
-/* Outras regras de estilo */
 
-#detalhes {
-    background-image: url('static/images/111.png'); /* Substitua pelo caminho da sua imagem */
-    background-size: cover; /* Faz com que a imagem cubra toda a área da seção */
-    background-position: center; /* Centraliza a imagem na seção */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    color: white; /* Ajuste a cor do texto para garantir que ele fique visível sobre a imagem */
-    padding: 20px; /* Ajuste o preenchimento conforme necessário */
+/* Estilos para o vídeo de fundo */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo preencher o container completamente */
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+    background: #000; /* Fundo preto para áreas onde o vídeo pode não cobrir completamente */
 }
 
-#detalhes .container {
-    background: rgba(0, 0, 0, 0.895); /* Adiciona uma sobreposição semitransparente para melhorar a legibilidade */
-    padding: 20px;
-    border-radius: 8px;
+
+
+
+#detalhes {
+    position: relative;
+    z-index: 10; /* Garante que o conteúdo da seção detalhes fique acima do vídeo */
 }
