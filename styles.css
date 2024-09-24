@@ -315,3 +315,9 @@ body, html {
     z-index: -1;
     background: #000;
 }
+
+#detalhes .container {
+    background: rgba(0, 0, 0, 0.895); /* Adiciona uma sobreposição semitransparente para melhorar a legibilidade */
+    padding: 20px;
+    border-radius: 8px;
+}
